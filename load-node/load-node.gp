@@ -8,7 +8,7 @@ set key top right spacing 1
 
 set output 'load-node.pdf'
 
-plot 'energy-distance-plot.data' using 1:2 title 'Nodo 1' lc 1   ,\
+plot 'load-nodes.data' using 1:2 title 'Nodo 1' lc 1   ,\
 							  '' using 1:3 title 'Nodo 2' lc 2  ,\
     						  '' using 1:4 title 'Nodo 3' lc 3 
 unset output
